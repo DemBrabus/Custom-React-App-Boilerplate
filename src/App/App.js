@@ -20,7 +20,7 @@ export default class App extends Component {
                 <nav className='Nav'>
                     <div className='Nav-Icon'></div>
                     <div className='Nav-Links'>
-                        <a href='' target='_blank' className='Nav-Link'>Github</a>
+                        <a href='https://github.com/DemBrabus/Custom-React-App-Boilerplate' target='_blank' className='Nav-Link'>Github</a>
                         <a href='https://reactjs.org/' target='_blank' className='Nav-Link'>React Docs</a>
                     </div>
                 </nav>
