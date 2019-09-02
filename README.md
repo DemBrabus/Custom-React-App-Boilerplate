@@ -1,6 +1,6 @@
 
-Custom React Build
-==================
+Custom React Builds
+===================
 
 # Easily Expandable Custom React App Boilerplate
 
