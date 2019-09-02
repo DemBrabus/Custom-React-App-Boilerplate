@@ -35,7 +35,7 @@ Custom React Builds
             - src/Styles/App.scss Styling
             - index.html link tag
 
-    5. A little Something For Your Flow
+    5. A Little Something For Your Flow
         https://www.youtube.com/watch?v=U5ttH2asBRA
 
 
