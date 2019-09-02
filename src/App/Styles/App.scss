@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100%;
+    font-family: montserrat, sans-serif;
+    color: #eaeaea;
+    background-color: rgb(247, 247, 247);
+    position: relative;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #141414;
+}
+
+.GroundZero {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+    .Nav {
+        width: 100%;
+        height: 60px;
+        background-color: rgb(22, 22, 28);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 80px;
+    }
+
+        .Nav-Icon {
+            width: 50px;
+            height: 50px;
+            background: url('../Assets/CustomReactLogo.png');
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .Nav-Links {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            .Nav-Link {
+                font-size: 18px;
+                margin-left: 30px;
+                color: #eaeaea;
+                font-weight: 300;
+            }
+                .Nav-Link:first-child {
+                    margin: 0;
+                }
+
+    .Intro {
+        width: 100%;
+        height: calc( 100vh - 60px);
+        margin-top: 60px;
+        background-color: #23232D;
+        display: flex;
+        justify-content: center;
+        padding: 100px 10%;
+
+    }
+
+        .Intro-Content {
+            margin-top: 100px;
+        }
+
+        .Intro-Title {
+            font-size: 70px;
+            margin-bottom: 30px;
+            font-family: aktiv-grotesk-condensed, sans-serif;
+            font-weight: 900;
+            font-style: normal;
+            text-transform: uppercase;
+            text-align: center;
+            white-space: nowrap;
+        }
+
+        .Intro-Text {
+            font-size: 24px;
+            font-weight: 300;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .Intro-SubText {
+            font-size: 14px;
+            color: #A1303C;
+            text-align: center;
+        }
+
+
+@media screen and (max-width: 1000px){
+    .Nav {
+        padding: 0 40px;
+    }
+    .Intro-Content {
+        margin-top: 60px;
+    }
+    .Intro {
+        padding: 100px 10%;
+    }
+    .Intro-Title {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .Nav {
+        padding: 0 25px;
+    }
+    .Intro-Title {
+        font-size: 32px;
+    }
+    .Intro-Text {
+        font-size: 16px;
+    }
+}
